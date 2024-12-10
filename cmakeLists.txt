@@ -5,6 +5,6 @@
 
 
  # 添加源代码文件
- add_executable(SimpleSharedPtr "src/main.cpp" "src/SimpleSharedPtr.cpp")
+ add_executable(SimpleSharedPtr "src/main.cpp")
  # 引入头文件
- target_include_directories(SimpleSharedPtr PRIVATE include)
+ target_include_directories(SimpleSharedPtr PRIVATE include/SimpleSharedPtr)
